@@ -1,26 +1,48 @@
+body 
+{
+    background: white;
+}
+
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, h2
+{
+    margin-left: 150px;
+}
+
+
+
 .navigation
 {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow: hidden;
-    background-color: rgb(251, 231, 156);
+    background-color: rgb(29, 37, 47);
+    border-bottom: 5px solid rgb(247, 163, 39);
 }
 
 .navButton
 {
     float: left;
     cursor: pointer;
+    text-align: center;
 }
 
-.navText:hover {
-  background-color: yellow;
+.navText:hover 
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
 }
 
 .navText
 {
     display: block;
-    color: rgb(247, 163, 39);
+    color: white;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
@@ -28,33 +50,60 @@
 
 .navLogo
 {
-    width: 50px;
+    width: 45px;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 150px;
 }
 
 .footer
 {
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    display: block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(251, 231, 156);
+    background-color: rgb(29, 37, 47);
+    border-top: 5px solid rgb(247, 163, 39);
 }
 
 .footerText
 {
-    display: block;
-    color: rgb(247, 163, 39);
+    color: white;
     text-align: center;
-    padding: 15px 30px;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 100px;
     text-decoration: none;
     float: left;
+    display: block;
+}
+
+.footerButton
+{
+    margin-left: 150px;
 }
 
 .currentHighlight
 {
     background-color: black;
+    border-radius: 25px;
+}
+
+.card
+{
+    background-color: rgb(251, 231, 156);
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2, .card p
+{
+    margin-left: 0;
 }

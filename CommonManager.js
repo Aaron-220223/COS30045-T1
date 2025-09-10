@@ -24,8 +24,8 @@ class CommonFooter extends HTMLElement
         `
         <footer>
         <ul class="footer">
-            <li><p class="footerText">2025</p></li>
-            <li><p class="footerText">Aaron Guo Yang CHONG</p></li>
+            <li class="footerButton"><p class="footerText">©2025 Aaron Guo Yang CHONG</p></li>
+            <li class="footerButton"><p class="footerText">Built with assistance from GenAI for placeholder content</p></li>
         </ul>
         </footer>
         `
