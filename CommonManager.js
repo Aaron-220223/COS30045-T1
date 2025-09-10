@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+
 function Home() 
 {
     window.location.href = "/index.html";
