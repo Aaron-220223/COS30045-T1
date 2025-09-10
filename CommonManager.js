@@ -7,7 +7,7 @@ class CommonHeader extends HTMLElement
         <div>
         <ul class="navigation">     
             <li class="navButton"><img class="navLogo" onclick="Home()" src="PowerIcon.png" alt="Home"></li>
-            <li class="navButton"><a class="navText" href="/Home.html">Home</a></li>
+            <li class="navButton"><a class="navText" href="/Index.html">Home</a></li>
             <li class="navButton"><a class="navText" href="/Televisions.html">Televisions</a></li>
             <li class="navButton"><a class="navText" href="/About_Us.html">About Us</a></li>
         </ul>
@@ -51,17 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function Home() 
 {
-    window.location.href = "/Home.html";
-}
-
-function Televisions() 
-{
-    window.location.href = "/Televisions.html";
-}
-
-function About() 
-{
-    window.location.href = "/About_Us.html";
+    window.location.href = "/Index.html";
 }
 
 customElements.define('common-header', CommonHeader)
